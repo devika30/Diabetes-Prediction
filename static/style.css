@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #8256BB;
+    overflow: hidden;
+    font-family: 'Francois One', sans-serif;
+}
+.box{
+    background-color:#430b5a63;
+    color: white;
+    padding: 30px;
+
+}
+.button{
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    color: white;
+    background: #2b0448;
+}
+
+@media only screen and (max-width: 430px) {
+    .img {
+      visibility: hidden;
+    }
+    .header-text{
+        text-align: center;
+    }
+  }
